@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Stat & Graph Tools</title>
+<title>Stat & Graph Tools for NEJM</title>
 <style>
   /* 전체 레이아웃 기본 */
   html, body { height: 100%; }
   body { font-family: Arial, sans-serif; background-color: #fdfefe; margin:0; overflow-x: hidden; }
 
-  /* 제목 #1D3368 */
-  h2 { color: #1D3368; text-align:center; padding:20px; margin:0; }
+  /* 제목 #FF3200 */
+  h2 { color: #FF3200; text-align:center; padding:20px; margin:0; }
 
   /* 4열 고정 + 화면에 맞춰 타일 자동 축소 */
   .grid {
@@ -23,7 +23,7 @@
 
   /* 타일: 정사각형 비율 유지, 내부는 세로 플렉스 */
   .tile-box {
-    background-color: #1D3368;
+    background-color: #FF3200;
     border: 1px solid #ccc;
     cursor: pointer;
     display: flex;
@@ -81,8 +81,8 @@
   }
   #backBtn {
     background:#FDFEFE;
-    color:#1D3368;
-    border:1px solid #1D3368;
+    color:#FF3200;
+    border:1px solid #FF3200;
     border-radius:8px;
     font-size:18px;
     font-weight:bold;
@@ -95,12 +95,12 @@
 </head>
 <body>
 
-<h2 id="mainTitle">Stat & Graph Tools</h2>
+<h2 id="mainTitle">Stat & Graph Tools for NEJM</h2>
 
 <div id="grid" class="grid"></div>
 
 <div id="viewer">
-  <button id="backBtn">🏠 Show List of Stat & Graph Tools</button>
+  <button id="backBtn">🏠 Show List of Stat & Graph Tools for NEJM</button>
   <iframe id="appFrame"></iframe>
 </div>
 
